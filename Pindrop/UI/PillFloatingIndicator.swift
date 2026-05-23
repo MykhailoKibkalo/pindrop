@@ -776,6 +776,7 @@ struct PillIndicatorView: View {
     @ObservedObject var controller: PillFloatingIndicatorController
     @ObservedObject var state: FloatingIndicatorState
     let isCompact: Bool
+    @Environment(\.locale) private var locale
     @Namespace private var pillShellNamespace
     @ObservedObject private var theme = PindropThemeController.shared
 
@@ -894,7 +895,7 @@ struct PillIndicatorView: View {
                 HStack(spacing: 6) {
                     IndicatorProcessingView(dotCount: 3, dotDiameter: 4, spacing: 3)
 
-                    Text("Processing")
+                    Text(localized("Processing", locale: locale))
                         .font(.system(size: 11, weight: .semibold, design: .rounded))
                         .foregroundStyle(AppColors.overlayTextPrimary.opacity(0.9))
                 }

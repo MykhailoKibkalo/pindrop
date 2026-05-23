@@ -155,7 +155,7 @@ struct MediaTranscriptionDetailView: View {
         }
         .overlay(alignment: .bottom) {
             if showCopiedToast {
-                Text("Copied to clipboard")
+                Text(localized("Copied to clipboard", locale: locale))
                     .font(AppTypography.caption)
                     .foregroundStyle(.white)
                     .padding(.horizontal, AppTheme.Spacing.md)
@@ -204,7 +204,7 @@ struct MediaTranscriptionDetailView: View {
             Spacer()
 
             Toggle(isOn: $followPlayback) {
-                Text("Follow playback").font(AppTypography.caption)
+                Text(localized("Follow playback", locale: locale)).font(AppTypography.caption)
             }
             .toggleStyle(.switch)
             .controlSize(.mini)
@@ -517,7 +517,7 @@ struct MediaTranscriptionDetailView: View {
 
     private var detailsCard: some View {
         VStack(alignment: .leading, spacing: AppTheme.Spacing.md) {
-            Text("Details")
+            Text(localized("Details", locale: locale))
                 .font(AppTypography.headline)
                 .foregroundStyle(AppColors.textPrimary)
 
@@ -698,7 +698,7 @@ struct MediaTranscriptionDetailView: View {
                 Image(systemName: "sparkles")
                     .font(.system(size: 11, weight: .semibold))
                     .foregroundStyle(AppColors.accent)
-                Text("AI Summary")
+                Text(localized("AI Summary", locale: locale))
                     .font(AppTypography.headline)
                     .foregroundStyle(AppColors.textPrimary)
 

@@ -43,7 +43,8 @@ struct OnboardingWindow: View {
     let permissionManager: PermissionManager
     let onComplete: () -> Void
     let onPreferredContentSizeChange: (CGSize) -> Void
-    
+
+    @Environment(\.locale) private var locale
     @State private var currentStep: OnboardingStep = .welcome
     @State private var selectedModelName: String = "openai_whisper-base"
     @State private var direction: Int = 1
@@ -94,7 +95,7 @@ struct OnboardingWindow: View {
                             Button(action: goBack) {
                                 HStack(spacing: 4) {
                                     IconView(icon: .chevronLeft, size: 14)
-                                    Text("Back")
+                                    Text(localized("Back", locale: locale))
                                 }
                                 .font(.subheadline)
                                 .foregroundStyle(.secondary)

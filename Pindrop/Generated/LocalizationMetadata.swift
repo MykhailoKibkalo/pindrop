@@ -1363,6 +1363,7 @@ enum LocalizationMetadata {
         "Try searching for terms like hotkeys, microphone, updates, or vibe mode.": "try_searching_for_terms_like_hotkeys_microphone",
         "Turkish": "turkish",
         "Type text directly into the active app when possible": "type_text_directly_into_the_active_app_when_poss",
+        "Ukrainian": "ukrainian",
         "Unable to finish transcription": "unable_to_finish_transcription",
         "Unable to load history: %@": "unable_to_load_history",
         "Unable to load models. Try refresh.": "unable_to_load_models_try_refresh",

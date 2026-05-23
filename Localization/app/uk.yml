@@ -4,15 +4,15 @@
   folder: "1 папка"
   transcription: "1 транскрипція"
 a:
-  native_macos_menu_bar_dictation_app_using_loca: "Рідна програма для диктування панелі меню macOS, яка використовує локальне перетворення мовлення в текст за допомогою WhisperKit. 100% локальна обробка за замовчуванням із додатковим покращенням ШІ."
+  native_macos_menu_bar_dictation_app_using_loca: "Нативний додаток для диктування в menu bar macOS, який використовує локальне перетворення мовлення в текст за допомогою WhisperKit. 100% локальна обробка за замовчуванням з опціональним покращенням ШІ."
 about:
-  _self: "про"
+  _self: "Про програму"
   pindrop: "Про Pindrop"
 accessibility:
   _self: "Доступність"
-  permission_is_enabled_full_ui_cont: "Дозвіл доступності ввімкнено. Доступний повний контекст інтерфейсу користувача."
-  permission_is_not_granted_vibe_mod: "Дозвіл на доступність не надано. Режим Vibe залишається неблокуючим із обмеженим контекстом."
-  permission_recommended: "Рекомендовано дозвіл доступності"
+  permission_is_enabled_full_ui_cont: "Дозвіл на доступність увімкнено. Повний контекст інтерфейсу доступний."
+  permission_is_not_granted_vibe_mod: "Дозвіл на доступність не надано. Режим Vibe залишається неблокуючим з обмеженим контекстом."
+  permission_recommended: "Рекомендовано дозвіл на доступність"
   permission_required: "Потрібен дозвіл на доступність"
 accuracy:
   _self: "Точність"
@@ -21,68 +21,68 @@ acknowledgments:
 active:
   _self: "Активний"
 add:
-  _self: "додати"
-  a_provider_to_start_using_ai_enhancement: "Додайте постачальника, щоб почати використовувати вдосконалення ШІ."
-  custom_words_to_improve_transcription_accura: "Додайте власні слова, щоб покращити точність транскрипції спеціальних термінів, імен або жаргону."
-  provider: "Додати постачальника"
+  _self: "Додати"
+  a_provider_to_start_using_ai_enhancement: "Додайте провайдера, щоб почати використовувати покращення ШІ."
+  custom_words_to_improve_transcription_accura: "Додайте власні слова, щоб покращити точність транскрипції для спеціалізованих термінів, імен або жаргону."
+  provider: "Додати провайдера"
   tag: "Додати тег..."
   to_existing: "Додати до існуючих"
-  trailing_space: "Додати кінцевий пробіл"
-  word_replacements_to_automatically_correct_c: "Додайте заміни слів для автоматичного виправлення типових помилок транскрипції."
-  words_to_help_pindrop_recognize_them_properl: "Додайте слова, щоб допомогти Pindrop правильно їх розпізнати"
-  words_you_manually_correct_into_your_vocabul: "Додайте слова, які ви виправили вручну, у свій словник для майбутніх транскрипцій."
+  trailing_space: "Додавати пробіл у кінці"
+  word_replacements_to_automatically_correct_c: "Додайте заміни слів для автоматичного виправлення поширених помилок транскрипції."
+  words_to_help_pindrop_recognize_them_properl: "Додайте слова, щоб Pindrop міг правильно їх розпізнавати"
+  words_you_manually_correct_into_your_vocabul: "Додавайте слова, які ви виправляєте вручну, у свій словник для майбутніх транскрипцій."
 ai:
-  enhancement: "Покращення AI"
-  enhancement_529f5583: "Покращення AI: %@"
-  enhancement_failed: "Помилка покращення AI"
-  enhancement_is_disabled: "Покращення AI вимкнено."
+  enhancement: "Покращення ШІ"
+  enhancement_529f5583: "Покращення ШІ: %@"
+  enhancement_failed: "Помилка покращення ШІ"
+  enhancement_is_disabled: "Покращення ШІ вимкнено."
   enhancement_will: "Покращення ШІ:"
   model: "Модель ШІ"
 all:
-  _self: "всі"
+  _self: "Усі"
 an:
   error_occurred_while_enhancing_your_transcrip: |-
-    Під час покращення вашої транскрипції сталася помилка:
-    
+    Під час покращення транскрипції сталася помилка:
+
     %@
-    
-    Оригінальна транскрипція була збережена без покращення.
-    Ви можете спробувати знову ввімкнути покращення ШІ в налаштуваннях.
-  error_occurred_while_enhancing_your_transcrip_8c664cb4: "Під час покращення вашої транскрипції сталася помилка:nn%@nnОригінальна транскрипція була збережена без покращення.nВи можете спробувати знову ввімкнути покращення ШІ в налаштуваннях."
+
+    Оригінальну транскрипцію збережено без покращення.
+    Ви можете знову увімкнути покращення ШІ в Налаштуваннях.
+  error_occurred_while_enhancing_your_transcrip_8c664cb4: "Під час покращення транскрипції сталася помилка:\n\n%@\n\nОригінальну транскрипцію збережено без покращення.\nВи можете знову увімкнути покращення ШІ в Налаштуваннях."
 anthropic:
-  _self: "Антропний"
+  _self: "Anthropic"
 api:
-  endpoint: "Кінцева точка API"
+  endpoint: "Endpoint API"
   key: "Ключ API"
   key_saved: "Ключ API збережено"
-  key_saved_endpoint: "Ключ API збережено • Кінцева точка: %@"
+  key_saved_endpoint: "Ключ API збережено • Endpoint: %@"
 app:
-  info_acknowledgments_support_and_logs: "Інформація про програму, подяки, підтримка та журнали"
+  info_acknowledgments_support_and_logs: "Інформація про додаток, подяки, підтримка та журнали"
 append:
-  a_space_after_each_transcription_for_seam: "Додайте пробіл після кожної транскрипції для безперебійного диктування."
+  a_space_after_each_transcription_for_seam: "Додавати пробіл після кожної транскрипції для безперервного диктування."
 apple:
-  foundation_models_on_device: "Моделі Apple Foundation (на пристрої)"
+  foundation_models_on_device: "Apple Foundation Models (на пристрої)"
   intelligence: "Apple Intelligence"
-  intelligence_is_unavailable_on_this_system: "Apple Intelligence недоступна в цій системі. Це призначення не буде вирішено, доки не буде ввімкнено Apple Intelligence."
+  intelligence_is_unavailable_on_this_system: "Apple Intelligence недоступний у цій системі. Це призначення не буде застосовано, доки Apple Intelligence не буде увімкнено."
   intelligence_runs_on_device_and_requires_n: "Apple Intelligence працює на пристрої та не потребує облікових даних."
   speechtranscriber_macos_26: "Apple SpeechTranscriber (macOS 26+)"
-  speechtranscriber_requires_macos_26: "Для роботи Apple SpeechTranscriber потрібна macOS 26."
+  speechtranscriber_requires_macos_26: "Apple SpeechTranscriber потребує macOS 26."
   speechtranscriber_unavailable_using_parake: "Apple SpeechTranscriber недоступний — використовується Parakeet"
 are:
-  you_sure_you_want_to_delete_this_action_cann: "Ви впевнені, що хочете видалити \"%@\"? Цю діюnnне можна скасувати."
+  you_sure_you_want_to_delete_this_action_cann: "Ви впевнені, що хочете видалити «%@»? Цю дію не можна скасувати."
 assignments:
-  _self: "Завдання"
+  _self: "Призначення"
 attach:
-  logs_from_this_folder_when_filing_a_githu: "Додайте журнали з цієї папки під час подання проблеми GitHub."
+  logs_from_this_folder_when_filing_a_githu: "Прикріпіть журнали з цієї папки при створенні issue на GitHub."
 audio:
-  input: "Аудіо вхід"
+  input: "Аудіовхід"
 automatic:
   follow_system: "Автоматично (за системою)"
   updates: "Автоматичні оновлення"
-  updates_and_manual_update_checks: "Автоматичне оновлення та перевірка оновлень вручну"
+  updates_and_manual_update_checks: "Автоматичні оновлення та перевірка оновлень вручну"
 automatically:
   check_for_new_versions_in_the_back: "Автоматично перевіряти наявність нових версій у фоновому режимі."
-  start_pindrop_when_you_sign_in: "Автоматично запускати Pindrop під час входу."
+  start_pindrop_when_you_sign_in: "Автоматично запускати Pindrop під час входу в систему."
 available:
   models: "Доступні моделі"
 avg:
@@ -91,61 +91,61 @@ back:
   _self: "Назад"
   to_library: "Назад до бібліотеки"
 base:
-  _self: "База"
+  _self: "Base"
 best:
   _self: "Найкращий"
 better:
-  _self: "краще"
+  _self: "Кращий"
 bubble:
-  _self: "міхур"
+  _self: "Бульбашка"
 built:
   in_presets: "Вбудовані пресети"
-  in_read_only: "Вбудований (лише читання)"
+  in_read_only: "Вбудований (лише для читання)"
 cancel:
   _self: "Скасувати"
   operation: "Скасувати операцію"
 capture:
-  directly_into_the_note_editor_with_a_hol: "Записуйте безпосередньо в редактор нотаток за допомогою потоку утримання для запису."
+  directly_into_the_note_editor_with_a_hol: "Записуйте безпосередньо в редактор нотаток за допомогою режиму «утримуй, щоб записати»."
 change:
   microphone: "Змінити мікрофон"
   microphone_ac9970f4: "Змінити мікрофон"
 check:
-  for_updates: "Перевірити наявність оновлень..."
-  for_updates_736b9062: "Перевірте наявність оновлень"
-  now: "Перевір зараз"
+  for_updates: "Перевірити оновлення..."
+  for_updates_736b9062: "Перевірити оновлення"
+  now: "Перевірити зараз"
 checking:
   _self: "Перевірка..."
 choose:
   a_location_to_save_the_dictionary: "Виберіть місце для збереження словника"
-  a_location_to_save_the_presets: "Виберіть місце для збереження попередніх налаштувань"
+  a_location_to_save_the_presets: "Виберіть місце для збереження пресетів"
   a_model: "Виберіть модель"
   a_provider_first: "Спочатку виберіть провайдера"
-  an_audio_or_video_file_to_transcribe: "Виберіть аудіо- чи відеофайл для транскрибування"
-  between_parakeet_cross_version_downloaded: "Вибирайте між Parakeet (крос-версія, завантажена модель) і Apple SpeechTranscriber (macOS 26+, постачається з ОС)."
+  an_audio_or_video_file_to_transcribe: "Виберіть аудіо- або відеофайл для транскрибування"
+  between_parakeet_cross_version_downloaded: "Виберіть між Parakeet (універсальна, завантажувана модель) та Apple SpeechTranscriber (macOS 26+, постачається з ОС)."
   file: "Виберіть файл"
-  how_dictated_text_lands_then_tune_the_fin: "Виберіть спосіб розміщення продиктованого тексту, а потім налаштуйте остаточну поведінку вставки."
-  how_pindrop_follows_system_appearance_the: "Виберіть, як Pindrop слідує зовнішньому вигляду системи, а потім змішайте підібрані світлі та темні палітри."
+  how_dictated_text_lands_then_tune_the_fin: "Виберіть, як надходить продиктований текст, а потім налаштуйте остаточну поведінку вставлення."
+  how_pindrop_follows_system_appearance_the: "Виберіть, як Pindrop слідує вигляду системи, а потім поєднайте підібрані світлі й темні палітри."
   how_to_import_the_dictionary_data: "Виберіть спосіб імпорту даних словника"
-  how_to_import_the_preset_data: "Виберіть спосіб імпорту попередньо встановлених даних"
-  languages_for_the_interface_and_for_dicta: "Виберіть мови для інтерфейсу та для диктування. Автомат слідкує за системою."
-  location_to_save_presets: "Виберіть місце для збереження попередніх налаштувань"
-  the_daytime_shell_used_in_light_mode: "Вибирайте денну оболонку, яка використовується в світлому режимі."
-  the_low_glare_shell_used_in_dark_mode: "Виберіть оболонку з низьким відблиском, яка використовується в темному режимі."
-  which_floating_indicator_style_appears_wh: "Виберіть, який стиль плаваючого індикатора відображатиметься, коли ввімкнено накладання."
-  which_microphone_pindrop_should_use_for_d: "Виберіть, який мікрофон Pindrop використовуватиме для диктування та як він поводитиметься під час запису."
+  how_to_import_the_preset_data: "Виберіть спосіб імпорту даних пресетів"
+  languages_for_the_interface_and_for_dicta: "Виберіть мови для інтерфейсу та для диктування. Автоматичний режим слідує за системою."
+  location_to_save_presets: "Виберіть місце для збереження пресетів"
+  the_daytime_shell_used_in_light_mode: "Виберіть денну оболонку, що використовується у світлому режимі."
+  the_low_glare_shell_used_in_dark_mode: "Виберіть оболонку з низьким відблиском, що використовується в темному режимі."
+  which_floating_indicator_style_appears_wh: "Виберіть, який стиль плавного індикатора відображатиметься, коли увімкнено накладання."
+  which_microphone_pindrop_should_use_for_d: "Виберіть, який мікрофон Pindrop має використовувати для диктування, і його поведінку під час запису."
   which_side_the_navigation_sidebar_appears: "Виберіть, з якого боку відображатиметься бічна панель навігації."
 clean:
-  up_filler_words: "Очистіть слова-заповнювачі"
+  up_filler_words: "Прибирати слова-паразити"
 clear:
-  audio_buffer: "Очистити звуковий буфер"
+  audio_buffer: "Очистити аудіобуфер"
   hotkey: "Очистити гарячу клавішу"
 clears:
-  preferences_and_restarts_onboarding: "Очищає налаштування та перезапускає адаптацію"
+  preferences_and_restarts_onboarding: "Очищає налаштування та перезапускає початкове налаштування"
 click:
-  or_hold: "Натисніть або утримуйте"
+  or_hold: "Клацніть або утримуйте"
   or_press: "Клацніть або натисніть"
-  or_set_a_hotkey_to_start_talking: "Натисніть або встановіть гарячу клавішу, щоб почати розмову"
-  this_icon_anytime_to: "Клацніть цей значок будь-коли, щоб:"
+  or_set_a_hotkey_to_start_talking: "Клацніть або встановіть гарячу клавішу, щоб почати говорити"
+  this_icon_anytime_to: "Клацніть цю іконку будь-коли, щоб:"
 clipboard:
   _self: "Буфер обміну"
 cloud:
@@ -154,49 +154,49 @@ cloud:
 collapse:
   _self: "Згорнути"
 coming:
-  soon: "%@ Незабаром"
+  soon: "%@ незабаром"
   soon_04d2fd85: "Незабаром"
 configure:
-  ai_providers_and_credentials_apple_int: "Налаштуйте постачальників AI та облікові дані. Apple Intelligence працює на пристрої; іншим постачальникам потрібні ключі API."
-  keyboard_shortcuts_for_recording_and_n: "Налаштуйте комбінації клавіш для запису та захоплення нотаток"
+  ai_providers_and_credentials_apple_int: "Налаштуйте провайдерів ШІ та облікові дані. Apple Intelligence працює на пристрої; іншим провайдерам потрібні ключі API."
+  keyboard_shortcuts_for_recording_and_n: "Налаштуйте комбінації клавіш для запису й створення нотаток"
 continue:
   _self: "Продовжити"
-  with_default: "Продовжити за замовчуванням"
+  with_default: "Продовжити зі стандартним"
   without: "Продовжити без"
 control:
-  how_pindrop_appears_in_macos_and_whether: "Контролюйте, як Pindrop відображається в macOS і чи запускається він під час сеансу робочого столу."
+  how_pindrop_appears_in_macos_and_whether: "Керуйте тим, як Pindrop відображається в macOS і чи запускається разом із сесією робочого столу."
 controls:
-  how_the_live_dictation_path_polishes_tr: "Контролює, як шлях живого диктування відшліфовує стенограми. Детермінований очищувач (видалення заповнювачів, використання великих літер, промовна пунктуація, нормалізація чисел, об’єднання розділених слів) працює в будь-якому напрямку — цей перемикач блокує додатковий проход полірування LLM, який запускається після завершення диктування."
+  how_the_live_dictation_path_polishes_tr: "Керує тим, як шлях живого диктування полірує транскрипти. Детермінований очищувач (видалення слів-паразитів, великі літери, проголошена пунктуація, нормалізація чисел, об’єднання розбитих слів) працює в будь-якому випадку — цей перемикач керує опціональним додатковим проходом полірування LLM, що запускається після зупинки диктування."
 copied:
   _self: "Скопійовано!"
 copy:
   _self: "Копіювати"
-  enhanced: "Покращене копіювання"
-  last_transcript: "Копіювати останню транскрипцію"
-  original: "Копія Оригінал"
+  enhanced: "Копіювати покращений"
+  last_transcript: "Копіювати останній транскрипт"
+  original: "Копіювати оригінал"
   system_info_for_bug_report: "Копіювати інформацію про систему для звіту про помилку"
-  the_most_recent_transcript_to_the_clipboard: "Скопіюйте останню розшифровку в буфер обміну"
+  the_most_recent_transcript_to_the_clipboard: "Копіювати останній транскрипт у буфер обміну"
   to_clipboard: "Копіювати в буфер обміну"
-  transcript: "Копіювати стенограму"
+  transcript: "Копіювати транскрипт"
 correct:
-  grammar_mistakes: "Виправте граматичні помилки"
+  grammar_mistakes: "Виправляти граматичні помилки"
 create:
   _self: "Створити"
   new_note: "Створити нову нотатку"
-  new_preset: "Створити новий стиль"
-  your_first_note_to_get_started: "Щоб почати, створіть свою першу нотатку"
-  your_first_preset_or_duplicate_a_built_in: "Створіть свій перший стиль або скопіюйте вбудований, щоб налаштувати його."
-  your_own_presets_or_duplicate_built_in_on: "Створіть власні стилі або скопіюйте вбудовані, щоб налаштувати їх."
+  new_preset: "Створити новий пресет"
+  your_first_note_to_get_started: "Створіть свою першу нотатку, щоб почати"
+  your_first_preset_or_duplicate_a_built_in: "Створіть свій перший пресет або дублюйте вбудований, щоб налаштувати його."
+  your_own_presets_or_duplicate_built_in_on: "Створюйте власні пресети або дублюйте вбудовані, щоб налаштувати їх."
 credentials:
   are_stored_securely_in_keychain: "Облікові дані надійно зберігаються в Keychain"
   saved_successfully: "Облікові дані успішно збережено"
 current:
-  _self: "Поточний: %@"
+  _self: "Поточна: %@"
 custom:
-  _self: "Custom"
-  local: "Custom / Local"
-  openai_compatible: "Спеціальний (сумісний з OpenAI)"
-  presets: "Користувацькі пресети"
+  _self: "Власний"
+  local: "Власний / Локальний"
+  openai_compatible: "Власний (сумісний з OpenAI)"
+  presets: "Власні пресети"
 customize:
   hotkey: "Налаштувати гарячу клавішу"
 cut:
@@ -204,7 +204,7 @@ cut:
 d:
   characters: "%d символів"
 dark:
-  _self: "Темний"
+  _self: "Темна"
   preview: "Темний попередній перегляд"
   theme: "Темна тема"
 database:
@@ -216,30 +216,30 @@ default:
   _self: "За замовчуванням"
   model: "Модель за замовчуванням"
 define:
-  word_replacements_to_automatically_replac: "Визначте заміни слів для автоматичної заміни певних слів або фраз"
+  word_replacements_to_automatically_replac: "Визначте заміни слів, щоб автоматично замінювати певні слова чи фрази"
 degraded:
-  _self: "Деградували"
+  _self: "Знижена якість"
 delete:
   _self: "Видалити"
   folder: "Видалити папку"
   folder_e556e7c2: "Видалити папку?"
   model: "Видалити модель"
-  preset: "Видалити попередні налаштування"
-  preset_4f6cfe36: "Видалити шаблон?"
+  preset: "Видалити пресет"
+  preset_4f6cfe36: "Видалити пресет?"
   transcription: "Видалити транскрипцію"
   transcription_f82187c4: "Видалити транскрипцію?"
 dictionary:
   _self: "Словник"
 direct:
-  insert: "Пряма вставка"
+  insert: "Пряме вставлення"
 disabled:
   _self: "Вимкнено"
 dismiss:
   _self: "Відхилити"
 display:
-  name: "Відображуване ім'я"
-  name_c7874aaa: "Відображуване ім'я"
-  pindrop_in_the_dock_instead_of_running_o: "Відображати Pindrop у Dock замість running лише як програму на панелі меню."
+  name: "Відображуване ім’я"
+  name_c7874aaa: "Відображуване ім’я"
+  pindrop_in_the_dock_instead_of_running_o: "Відображати Pindrop у Dock замість роботи лише як додаток у menu bar."
 dock:
   the_sidebar_to_the_left_or_right_edge_of_th: "Прикріпіть бічну панель до лівого або правого краю вікна."
 dot:
@@ -250,137 +250,137 @@ download:
   continue: "Завантажити та продовжити"
   failed: "Помилка завантаження"
   model: "Завантажити модель"
-  the_diarization_model_before_starting_m: "Завантажте модель щоденника перед початком транскрипції медіа."
+  the_diarization_model_before_starting_m: "Завантажте модель діаризації перед початком транскрибування медіа."
 downloaded:
   _self: "Завантажено"
 downloading:
   _self: "Завантаження %@..."
 drop:
-  a_file_or_paste_a_link_to_create_a_diarized: "Перетягніть файл або вставте посилання, щоб створити стенограму щоденника з позначкою часу."
+  a_file_or_paste_a_link_to_create_a_diarized: "Перетягніть файл або вставте посилання, щоб створити транскрипт з діаризацією та позначками часу."
   audio_or_video_here: "Перетягніть аудіо або відео сюди"
 duplicate:
-  preset: "Дубльований стиль"
+  preset: "Дублювати пресет"
 dutch:
-  _self: "голландська"
+  _self: "Нідерландська"
 edit:
   _self: "Редагувати"
-  preset: "Редагувати попередні налаштування"
-  provider: "Редагувати постачальника"
+  preset: "Редагувати пресет"
+  provider: "Редагувати провайдера"
 empty:
-  _self: "(порожній)"
+  _self: "(Порожньо)"
 enable:
-  ai_enhancement: "Увімкнути AI Enhancement"
-  live_session_updates_during_recording: "Увімкніть оновлення сеансу в реальному часі під час запису"
-  the_floating_indicator_to_choose_a_style: "Увімкніть плаваючий індикатор, щоб вибрати стиль."
-  vibe_mode_ui_context: "Увімкнути режим Vibe (контекст інтерфейсу користувача)"
+  ai_enhancement: "Увімкнути покращення ШІ"
+  live_session_updates_during_recording: "Увімкнути оновлення сесії в реальному часі під час запису"
+  the_floating_indicator_to_choose_a_style: "Увімкніть плавний індикатор, щоб вибрати стиль."
+  vibe_mode_ui_context: "Увімкнути режим Vibe (контекст інтерфейсу)"
 enabled:
   _self: "Увімкнено"
 endpoint:
-  _self: "Кінцева точка: %@"
+  _self: "Endpoint: %@"
 english:
-  _self: "англійська"
-  only: "Лише англійською мовою"
+  _self: "Англійська"
+  only: "Лише англійська"
 enhanced:
   _self: "Покращений"
 enhancement:
-  prompts: "Підказки щодо покращення"
+  prompts: "Промпти покращення"
 enter:
-  an_openai_api_key_to_load_models: "Введіть ключ OpenAI API, щоб завантажити моделі."
+  an_openai_api_key_to_load_models: "Введіть ключ API OpenAI, щоб завантажити моделі."
   api_key: "Введіть ключ API"
   word_to_add: "Введіть слово для додавання"
 error:
   _self: "Помилка"
 european:
-  multilingual: "Європейська багатомовність"
+  multilingual: "Європейська багатомовна"
 excellent:
-  _self: "Чудово"
+  _self: "Відмінно"
 export:
   _self: "Експорт"
   as_csv: "Експортувати як CSV"
-  as_json: "Експорт як JSON"
-  as_plain_text: "Експорт як звичайний текст"
-  dictionary: "Експорт словника"
+  as_json: "Експортувати як JSON"
+  as_plain_text: "Експортувати як звичайний текст"
+  dictionary: "Експортувати словник"
   failed: "Помилка експорту: %@"
-  last_transcript: "Експортувати останню транскрипцію..."
-  presets: "Експорт пресетів"
+  last_transcript: "Експортувати останній транскрипт..."
+  presets: "Експортувати пресети"
 failed:
   to_add_replacement: "Не вдалося додати заміну: %@"
   to_add_word: "Не вдалося додати слово: %@"
   to_delete_folder: "Не вдалося видалити папку: %@"
-  to_delete_note: "Не вдалося видалити примітку: %@"
-  to_delete_preset: "Не вдалося видалити стиль: %@"
+  to_delete_note: "Не вдалося видалити нотатку: %@"
+  to_delete_preset: "Не вдалося видалити пресет: %@"
   to_delete_replacement: "Не вдалося видалити заміну: %@"
   to_delete_transcription: "Не вдалося видалити транскрипцію: %@"
   to_delete_word: "Не вдалося видалити слово: %@"
   to_export_dictionary: "Не вдалося експортувати словник: %@"
-  to_export_presets: "Не вдалося експортувати стилі: %@"
+  to_export_presets: "Не вдалося експортувати пресети: %@"
   to_import_dictionary: "Не вдалося імпортувати словник: %@"
-  to_import_presets: "Не вдалося імпортувати стилі: %@"
-  to_initialize_the_database_nnthe_app_will: "Не вдалося ініціалізувати базу даних: %@nnПрограма закриється. Спробуйте перезапустити або зверніться до служби підтримки, якщо проблема не зникне."
+  to_import_presets: "Не вдалося імпортувати пресети: %@"
+  to_initialize_the_database_nnthe_app_will: "Не вдалося ініціалізувати базу даних: %@\n\nДодаток зараз закриється. Спробуйте перезапустити або зверніться до підтримки, якщо проблема не зникає."
   to_load_data: "Не вдалося завантажити дані: %@"
   to_load_history: "Не вдалося завантажити історію: %@"
   to_read_import_file: "Не вдалося прочитати файл імпорту: %@"
   to_save: "Не вдалося зберегти: %@"
-  to_save_preset: "Не вдалося зберегти стиль: %@"
-  to_switch_model: "Не вдалося змінити модель: %@"
-  to_update_preset: "Не вдалося оновити стиль: %@"
+  to_save_preset: "Не вдалося зберегти пресет: %@"
+  to_switch_model: "Не вдалося переключити модель: %@"
+  to_update_preset: "Не вдалося оновити пресет: %@"
   to_update_replacement: "Не вдалося оновити заміну: %@"
   to_update_word: "Не вдалося оновити слово: %@"
 fast:
-  _self: "швидко"
+  _self: "Швидко"
 feature:
-  models: "Особливі моделі"
+  models: "Моделі функцій"
 fetch:
-  models_in_models: "Отримати моделі в моделях"
+  models_in_models: "Отримати моделі в розділі «Моделі»"
 fix:
-  punctuation_and_capitalization: "Виправити розділові знаки та великі літери"
+  punctuation_and_capitalization: "Виправляти пунктуацію та великі літери"
 floating:
-  indicator: "%@ плаваючий індикатор"
-  indicator_3bad78a5: "Плаваючий індикатор: %@"
-  indicator_e0349402: "Плаваючий індикатор"
+  indicator: "Плавний індикатор %@"
+  indicator_3bad78a5: "Плавний індикатор: %@"
+  indicator_e0349402: "Плавний індикатор"
 folder:
   deleted: "Папку видалено."
   name: "Назва папки"
 follow:
-  playback: "Слідкуйте за відтворенням"
+  playback: "Слідкувати за відтворенням"
 format:
-  text_appropriately: "Відформатуйте текст належним чином"
+  text_appropriately: "Форматувати текст належним чином"
 french:
-  _self: "французька"
+  _self: "Французька"
 general:
-  _self: "Загальний"
+  _self: "Загальні"
 german:
-  _self: "Німецький"
+  _self: "Німецька"
 get:
-  started: "Почніть роботу"
+  started: "Розпочати"
 global:
   keyboard_shortcuts: "Глобальні комбінації клавіш"
 go:
-  back: "Повернутися назад"
-  to_settings: "Перейдіть до налаштувань"
+  back: "Назад"
+  to_settings: "До налаштувань"
 good:
-  _self: "добре"
-  afternoon: "доброго дня"
-  evening: "добрий вечір"
-  morning: "доброго ранку"
-  night: "на добраніч"
+  _self: "Добре"
+  afternoon: "Доброго дня"
+  evening: "Доброго вечора"
+  morning: "Доброго ранку"
+  night: "Доброї ночі"
 google:
   _self: "Google"
 got:
-  it: "зрозумів"
+  it: "Зрозуміло"
 grant:
-  _self: "Грант"
+  _self: "Надати"
 great:
-  _self: "чудово"
+  _self: "Чудово"
 hide:
-  this_for_1_hour: "Сховайте це на 1 годину"
+  this_for_1_hour: "Сховати на 1 годину"
 history:
-  _self: "історія"
+  _self: "Історія"
 hold:
-  the_shortcut_to_record_then_release_to_tran: "Утримуйте ярлик, щоб записати, а потім відпустіть, щоб транскрибувати."
-  to_record_release_to_open_note_editor_with: "Утримуйте, щоб записати, відпустіть, щоб відкрити редактор нотаток із транскрипцією"
-  to_record_release_to_stop_and_transcribe: "Утримуйте, щоб записати, відпустіть, щоб зупинити та транскрибувати"
-  to_record_release_to_transcribe: "Утримуйте, щоб записати, відпустіть, щоб транскрибувати"
+  the_shortcut_to_record_then_release_to_tran: "Утримуйте комбінацію клавіш, щоб записувати, а потім відпустіть, щоб транскрибувати."
+  to_record_release_to_open_note_editor_with: "Утримуйте, щоб записати; відпустіть, щоб відкрити редактор нотаток із транскрипцією"
+  to_record_release_to_stop_and_transcribe: "Утримуйте, щоб записати; відпустіть, щоб зупинити та транскрибувати"
+  to_record_release_to_transcribe: "Утримуйте, щоб записати; відпустіть, щоб транскрибувати"
 hotkey:
   conflict: "Конфлікт гарячих клавіш"
 hotkeys:
@@ -390,7 +390,7 @@ import:
   error: "Помилка імпорту"
   export: "Імпорт/Експорт"
   media: "Імпорт медіа"
-  or_transcribe_media_while_this_folder_is: "Імпортуйте або транскрибуйте медіафайли, коли вибрано цю папку, щоб зберігати тут елементи."
+  or_transcribe_media_while_this_folder_is: "Імпортуйте або транскрибуйте медіа, поки вибрано цю папку, щоб зберігати елементи тут."
   presets: "Імпорт пресетів"
   strategy: "Стратегія імпорту"
 imported:
@@ -398,19 +398,19 @@ imported:
 improve:
   transcription_quality_using_ai: "Покращуйте якість транскрипції за допомогою ШІ"
 include:
-  clipboard_text: "Включити текст буфера обміну"
+  clipboard_text: "Включити текст із буфера обміну"
 interface:
   _self: "Інтерфейс"
 is:
-  assigned_to_both_and_only_the_first_action_wi: "%@ призначено як %@, так і %@. Активною буде лише перша дія. Оновіть гарячі клавіші в налаштуваннях, щоб вирішити цей конфлікт."
+  assigned_to_both_and_only_the_first_action_wi: "%@ призначено і %@, і %@. Активною буде лише перша дія. Оновіть гарячі клавіші в Налаштуваннях, щоб вирішити цей конфлікт."
 italian:
-  _self: "італійська"
+  _self: "Італійська"
 items:
-  _self: "елементи"
+  _self: "елементів"
 japanese:
-  _self: "Японський"
+  _self: "Японська"
 keep:
-  pindrop_current_automatically_or_trigger_a: "Автоматично підтримуйте Pindrop актуальним або запустіть перевірку вручну, коли забажаєте."
+  pindrop_current_automatically_or_trigger_a: "Підтримуйте Pindrop актуальним автоматично або запускайте перевірку вручну, коли потрібно."
 key:
   _self: "#%@"
   a979ef10: "+"
@@ -418,43 +418,43 @@ key:
 keyboard:
   shortcuts: "Комбінації клавіш"
 korean:
-  _self: "корейська"
+  _self: "Корейська"
 language:
   _self: "Мова"
 large:
-  _self: "Великий"
+  _self: "Large"
 launch:
-  at_login: "Запуск під час входу: %@"
-  at_login_0b36c78f: "Запуск під час входу"
+  at_login: "Запуск при вході: %@"
+  at_login_0b36c78f: "Запуск при вході"
 layout:
-  _self: "Макет"
+  _self: "Розкладка"
 learn:
-  corrected_words_automatically: "Вивчайте виправлені слова автоматично"
+  corrected_words_automatically: "Автоматично вивчати виправлені слова"
 left:
   _self: "Ліворуч"
 let:
-  pindrop_quietly_learn_vocabulary_from_the_co: "Дозвольте Pindrop спокійно вивчати лексику на основі виправлень, які ви вносите з часом."
+  pindrop_quietly_learn_vocabulary_from_the_co: "Дозвольте Pindrop тихо вивчати лексику з ваших виправлень із часом."
 light:
-  _self: "світло"
-  dark_and_curated_palette_presets: "Світлі, темні та попередньо налаштовані палітри"
-  preview: "Світловий попередній перегляд"
+  _self: "Світла"
+  dark_and_curated_palette_presets: "Світлі, темні та підібрані пресети палітр"
+  preview: "Світлий попередній перегляд"
   theme: "Світла тема"
 limited:
-  _self: "Обмежений"
+  _self: "Обмежено"
 live:
-  streaming_refinement: "Покращення прямої трансляції"
+  streaming_refinement: "Уточнення в реальному часі"
 lld:
   _self: "%1$lld %2$@"
   197eb092: "%lld%%"
   a2843d9b: "+%lld"
   characters: "%lld символів"
   complete: "%lld%% завершено"
-  items: "%lld предметів"
-  notes: "%lld нотатки"
-  transcriptions: "%lld транскрипції"
+  items: "%lld елементів"
+  notes: "%lld нотаток"
+  transcriptions: "%lld транскрипцій"
 lm:
   studio: "LM Studio"
-  studio_only_needs_a_token_if_local_server_aut: "LM Studio потрібен лише маркер, якщо ввімкнено автентифікацію локального сервера."
+  studio_only_needs_a_token_if_local_server_aut: "LM Studio потребує токен лише якщо увімкнено автентифікацію локального сервера."
 load:
   models: "Завантажити моделі"
 loaded:
@@ -463,30 +463,30 @@ loading:
   history: "Завантаження історії..."
   models: "Завантаження моделей..."
 local:
-  _self: "Місцевий"
+  _self: "Локальний"
   speech_to_text_right_from_your_menu_bar_fa: |-
-    Місцеве перетворення мовлення в текст прямо з панелі меню.
-    Швидко, приватно та завжди доступно.
-  speech_to_text_right_from_your_menu_bar_nf: "Місцеве перетворення мовлення в текст прямо з панелі меню.nШвидко, конфіденційно та завжди доступно."
-  speech_to_text_with_whisperkit: "Місцеве перетворення мови в текст за допомогою WhisperKit"
-  voice_to_text: "Місцеве перетворення голосу в текст"
+    Локальне перетворення мовлення в текст прямо з вашого menu bar.
+    Швидко, приватно й завжди доступно.
+  speech_to_text_right_from_your_menu_bar_nf: "Локальне перетворення мовлення в текст прямо з вашого menu bar.\nШвидко, приватно й завжди доступно."
+  speech_to_text_with_whisperkit: "Локальне перетворення мовлення в текст із WhisperKit"
+  voice_to_text: "Локальне перетворення голосу в текст"
 low:
   latency_mode_less_accurate: "Режим низької затримки (менш точний)"
 manage:
-  local_speech_models_feature_models_and_th: "Керуйте локальними моделями мовлення, моделями функцій і механізмом за замовчуванням, який Pindrop використовує для транскрипції."
-  models: "Керуйте моделями"
-  presets: "Керування пресетами"
-  presets_ab87986d: "Керувати попередніми налаштуваннями..."
+  local_speech_models_feature_models_and_th: "Керуйте локальними моделями розпізнавання мовлення, моделями функцій і двигуном за замовчуванням, який Pindrop використовує для транскрипції."
+  models: "Керувати моделями"
+  presets: "Керувати пресетами"
+  presets_ab87986d: "Керувати пресетами..."
 manually:
-  check_for_new_versions_now: "Перевірте наявність нових версій вручну."
+  check_for_new_versions_now: "Вручну перевірити наявність нових версій."
 media:
   library: "Медіатека"
   transcription: "Транскрипція медіа"
-  unavailable: "Медіа недоступні"
+  unavailable: "Медіа недоступне"
 medium:
   _self: "Середній"
 microphone:
-  _self: "мікрофон"
+  _self: "Мікрофон"
   permission_is_required_to_continue: "Щоб продовжити, потрібен дозвіл на використання мікрофона"
   permission_is_required_to_continue_dc: "Щоб продовжити, потрібен дозвіл на використання мікрофона."
   permission_required: "Потрібен дозвіл на використання мікрофона"
@@ -496,84 +496,84 @@ mode:
   _self: "Режим: %@"
 model:
   _self: "Модель"
-  loading_failed: "Помилка завантаження моделі"
-  loading_timed_out: "Час очікування завантаження моделі минув"
+  loading_failed: "Не вдалося завантажити модель"
+  loading_timed_out: "Час очікування завантаження моделі вичерпано"
 models:
   _self: "Моделі"
 move:
-  to_folder: "Перемістити до папки"
+  to_folder: "Перемістити в папку"
 multilingual:
   _self: "Багатомовний"
 must:
   be_openai_compatible: "Має бути сумісним з OpenAI"
 mute:
-  system_audio_during_recording: "Вимкнення звуку системи під час запису"
+  system_audio_during_recording: "Вимикати системний звук під час запису"
 new:
   folder: "Нова папка"
-  note: "Нова примітка"
-  preset: "Нове налаштування"
+  note: "Нова нотатка"
+  preset: "Новий пресет"
 next:
   _self: "Далі"
 no:
-  api_key: "Немає ключа API"
-  api_key_endpoint: "Немає ключа API • Кінцева точка: %@"
-  custom_presets: "Немає настроюваних налаштувань"
+  api_key: "Без ключа API"
+  api_key_endpoint: "Без ключа API • Endpoint: %@"
+  custom_presets: "Немає власних пресетів"
   downloaded_models: "Немає завантажених моделей"
-  folders_yet: "Папок ще немає"
+  folders_yet: "Поки що немає папок"
   items_in: "Немає елементів у %@"
-  media_transcriptions_yet: "Транскрипції медіа ще немає"
+  media_transcriptions_yet: "Поки що немає транскрипцій медіа"
   model_loaded: "Модель не завантажено"
   model_selected: "Модель не вибрано"
   models_available: "Немає доступних моделей"
   models_available_ae9dbd29: "Немає доступних моделей."
-  models_available_try_refresh_or_enter_a_model: "Немає доступних моделей. Спробуйте «Оновити» або введіть ідентифікатор моделі вручну."
-  models_found: "Моделі не знайдено."
-  models_loaded_open_edit_to_fetch_models: "Немає завантажених моделей. Відкрийте «Редагувати», щоб отримати моделі."
-  models_match: "Жодна модель не відповідає \"%@\""
-  notes_yet: "Приміток ще немає"
-  providers_configured_yet: "Постачальників ще не налаштовано."
-  replacements: "Без замін"
+  models_available_try_refresh_or_enter_a_model: "Немає доступних моделей. Спробуйте оновити або введіть ID моделі вручну."
+  models_found: "Моделей не знайдено."
+  models_loaded_open_edit_to_fetch_models: "Моделі не завантажено. Відкрийте «Редагувати», щоб отримати моделі."
+  models_match: "Жодна модель не відповідає «%@»"
+  notes_yet: "Поки що немає нотаток"
+  providers_configured_yet: "Провайдерів ще не налаштовано."
+  replacements: "Немає замін"
   results_found: "Результатів не знайдено"
   settings_found: "Налаштувань не знайдено"
-  transcriptions_yet: "Транскрипцій ще немає"
-  vocabulary_words: "Немає словникових слів"
+  transcriptions_yet: "Поки що немає транскрипцій"
+  vocabulary_words: "Немає слів у словнику"
 not:
   assigned: "Не призначено"
   selected: "Не вибрано"
   set: "Не встановлено"
   set_93039e60: "Не встановлено"
 notch:
-  _self: "Виїмка"
+  _self: "Вирізка"
 note:
-  _self: "Примітка"
-  capture_push_to_talk: "Запис нотаток (Push-to-Talk)"
-  capture_toggle: "Запис нотаток (перемикач)"
-  enhancement: "Покращення приміток"
-  from: "Записка від"
-  metadata: "Примітка Метадані"
-  title: "Заголовок примітки"
+  _self: "Нотатка"
+  capture_push_to_talk: "Запис нотатки (Push-to-Talk)"
+  capture_toggle: "Запис нотатки (перемикач)"
+  enhancement: "Покращення нотаток"
+  from: "Нотатка від"
+  metadata: "Метадані нотатки"
+  title: "Заголовок нотатки"
 notes:
-  _self: "Примітки"
-  3add7b96: "примітки"
+  _self: "Нотатки"
+  3add7b96: "нотаток"
 off:
   _self: "Вимкнено"
 ok:
-  _self: "добре"
+  _self: "OK"
 ollama:
-  _self: "Оллама"
-  usually_does_not_require_authentication_f: "Ollama зазвичай не вимагає автентифікації для локальних запитів."
+  _self: "Ollama"
+  usually_does_not_require_authentication_f: "Ollama зазвичай не потребує автентифікації для локальних запитів."
 on:
   _self: "Увімкнено"
   device_no_credentials_required: "На пристрої, облікові дані не потрібні"
 open:
-  _self: "ВІДЧИНЕНО"
+  _self: "Відкрити"
   history: "Відкрити історію"
-  logs_in_finder: "Відкрийте Журнали у Finder"
+  logs_in_finder: "Відкрити журнали у Finder"
   original_link: "Відкрити оригінальне посилання"
-  progress: "Відкритий прогрес"
-  settings: "Відкрийте налаштування"
-  settings_fd7108f8: "Відкрийте налаштування"
-  system_settings: "Відкрийте налаштування системи"
+  progress: "Відкрити прогрес"
+  settings: "Відкрити налаштування"
+  settings_fd7108f8: "Відкрити налаштування"
+  system_settings: "Відкрити Системні налаштування"
 openai:
   _self: "OpenAI"
   compatible_local_server: "Локальний сервер, сумісний з OpenAI"
@@ -581,11 +581,11 @@ openai:
 openrouter:
   _self: "OpenRouter"
 optional:
-  _self: "Додатково"
-  insert_text_directly_into_apps: "Додатково: вставте текст безпосередньо в програми"
-  used_for_auto_generated_titles_and_summ: "Необов’язково — використовується для автоматично згенерованих заголовків і підсумків під час імпорту медіатранскрипції."
+  _self: "Опціонально"
+  insert_text_directly_into_apps: "Опціонально: вставляти текст безпосередньо в додатки"
+  used_for_auto_generated_titles_and_summ: "Опціонально — використовується для автоматично згенерованих заголовків і резюме при імпорті транскрипцій медіа."
 optionally:
-  clean_up_transcriptions_with_ai: "Додатково очистіть транскрипції за допомогою ШІ"
+  clean_up_transcriptions_with_ai: "Опціонально очищати транскрипції за допомогою ШІ"
 or:
   _self: "або"
   just_use_your_hotkey: "Або просто використовуйте свою гарячу клавішу!"
@@ -593,26 +593,26 @@ original:
   _self: "Оригінал"
   text_use_commas_for_multiple: "Оригінальний текст (використовуйте коми для кількох)"
 originals:
-  comma_separated: "Оригінали (розділені комами)"
+  comma_separated: "Оригінали (через кому)"
 output:
-  _self: "Вихід"
-  audio_interface_and_everyday_behavior: "Вихід, звук, інтерфейс і повсякденна поведінка"
+  _self: "Вивід"
+  audio_interface_and_everyday_behavior: "Вивід, аудіо, інтерфейс і повсякденна поведінка"
 parakeet:
-  default: "Папуга (за замовчуванням)"
+  default: "Parakeet (за замовчуванням)"
 paste:
   _self: "Вставити"
   a_video_or_audio_link: "Вставте посилання на відео або аудіо"
-  last_transcript: "Вставити останню транскрипцію"
-  last_transcript_v: "Вставте останню транскрипцію ⌃⌘V"
+  last_transcript: "Вставити останній транскрипт"
+  last_transcript_v: "Вставити останній транскрипт ⌃⌘V"
 pause:
   _self: "Пауза"
-  media_during_transcription: "Призупинити медіа під час транскрипції"
+  media_during_transcription: "Призупиняти медіа під час транскрипції"
 permissions:
   _self: "Дозволи"
 pick:
-  which_provider_and_model_handles_each_ai_ta: "Виберіть, який постачальник і модель обробляє кожне завдання ШІ. Залиште як «Не призначено», щоб пропустити мету."
+  which_provider_and_model_handles_each_ai_ta: "Виберіть, який провайдер і модель обробляють кожне завдання ШІ. Залиште «Не призначено», щоб пропустити це призначення."
 pill:
-  _self: "таблетки"
+  _self: "Пігулка"
 pin:
   to_screen_always_on_top: "Закріпити на екрані (завжди зверху)"
 pindrop:
@@ -620,102 +620,102 @@ pindrop:
   dot: "Pindrop Dot"
   is_ready_to_use_click_the_menu_bar_icon: |-
     Pindrop готовий до використання.
-    Щоб розпочати, натисніть значок панелі меню.
-  is_ready_to_use_nclick_the_menu_bar_icon: "Pindrop готовий до використання.nНатисніть піктограму панелі меню, щоб розпочати."
-  needs_a_few_permissions_to_work_nyour_pr: "Pindrop потребує кількох дозволів для роботи.nВаша конфіденційність завжди поважається."
+    Натисніть іконку в menu bar, щоб почати.
+  is_ready_to_use_nclick_the_menu_bar_icon: "Pindrop готовий до використання.\nНатисніть іконку в menu bar, щоб почати."
+  needs_a_few_permissions_to_work_nyour_pr: "Pindrop потребує кількох дозволів для роботи.\nВаша конфіденційність завжди поважається."
   needs_a_few_permissions_to_work_your_pri: |-
     Pindrop потребує кількох дозволів для роботи.
     Ваша конфіденційність завжди поважається.
-  needs_accessibility_permission_to_insert: "\"\" Для вставлення тексту під курсором Pindrop потрібен дозвіл на доступність.                          Щоб надати дозвіл: 1. Натисніть «Відкрити налаштування системи» нижче 2. Натисніть кнопку + 3. Перейдіть до програми, яка відображається у Finder 4. Перезапустіть Pindrop після надання дозволу. Без цього дозволу текст буде скопійовано лише в буфер обміну.             \"\""
-  needs_microphone_access_to_record_and_tr: "Pindrop потрібен доступ до мікрофона, щоб записувати та транскрибувати ваш голос.nnНадайте дозвіл у налаштуваннях системи."
+  needs_accessibility_permission_to_insert: "\"\"             Pindrop потребує дозволу на доступність, щоб вставляти текст у місці курсора.                          Щоб надати дозвіл:             1. Натисніть «Відкрити Системні налаштування» нижче             2. Натисніть кнопку +             3. Перейдіть до додатка, показаного у Finder             4. Перезапустіть Pindrop після надання дозволу                          Без цього дозволу текст буде лише копіюватися в буфер обміну.             \"\""
+  needs_microphone_access_to_record_and_tr: "Pindrop потребує доступу до мікрофона, щоб записувати й транскрибувати ваш голос.\n\nНадайте дозвіл у Системних налаштуваннях."
   on_github: "Pindrop на GitHub"
   pill: "Pindrop Pill"
   theme: "Тема Pindrop"
 play:
-  _self: "грати"
+  _self: "Відтворити"
 please:
-  check_your_internet_connection_and_try_ag: "Перевірте підключення до Інтернетуnnі спробуйте ще раз."
+  check_your_internet_connection_and_try_ag: "Перевірте підключення до Інтернету та спробуйте ще раз."
   download_a_whisper_model_in_settings_befo: |-
-    Перед записом завантажте модель Whisper у налаштуваннях.
-    
+    Будь ласка, завантажте модель Whisper у Налаштуваннях, перш ніж записувати.
+
     Перейдіть до Налаштування → Моделі, щоб завантажити модель.
-  download_a_whisper_model_in_settings_befo_a71d286e: "Будь ласка, завантажте модель Whisper у налаштуваннях перед записом.nnПерейдіть у налаштування → Моделі, щоб завантажити модель."
+  download_a_whisper_model_in_settings_befo_a71d286e: "Будь ласка, завантажте модель Whisper у Налаштуваннях, перш ніж записувати.\n\nПерейдіть до Налаштування → Моделі, щоб завантажити модель."
   wait: "Будь ласка, зачекайте..."
 portuguese:
-  brazil: "португальська (Бразилія)"
+  brazil: "Португальська (Бразилія)"
 powered:
-  by_whisperkit: "Технологія WhisperKit"
+  by_whisperkit: "Працює на WhisperKit"
 preparing:
   model: "Підготовка моделі..."
 preset:
-  name: "Попереднє ім'я"
+  name: "Назва пресету"
 press:
-  and_hold_to_dictate_in_any_app_pindrop_wil: "Натисніть і утримуйте, щоб продиктувати в будь-якій програмі. Pindrop транскрибує вашу промову та вставляє текст у місце курсора."
+  and_hold_to_dictate_in_any_app_pindrop_wil: "Натисніть і утримуйте, щоб диктувати в будь-якому додатку. Pindrop транскрибує вашу мову та вставить текст у місці курсора."
   esc_to_cancel: "Натисніть Esc, щоб скасувати"
   keys: "Натисніть клавіші..."
-  once_to_start_again_to_stop: "Натисніть один раз, щоб почати, ще раз, щоб зупинити"
-  once_to_start_recording_press_again_to_sto: "Натисніть один раз, щоб почати запис, натисніть ще раз, щоб зупинити та розшифрувати"
-  once_to_start_recording_then_press_again_t: "Натисніть один раз, щоб почати запис, потім натисніть ще раз, щоб зупинити та розшифрувати."
-  to_start_recording_press_again_to_open_not: "Натисніть, щоб почати запис, натисніть ще раз, щоб відкрити редактор нотаток"
+  once_to_start_again_to_stop: "Натисніть один раз, щоб почати; натисніть ще раз, щоб зупинити"
+  once_to_start_recording_press_again_to_sto: "Натисніть один раз, щоб почати запис; натисніть ще раз, щоб зупинити й транскрибувати"
+  once_to_start_recording_then_press_again_t: "Натисніть один раз, щоб почати запис, потім натисніть ще раз, щоб зупинити й транскрибувати."
+  to_start_recording_press_again_to_open_not: "Натисніть, щоб почати запис; натисніть ще раз, щоб відкрити редактор нотаток"
 primary:
   text: "Основний текст"
 processing:
   _self: "Обробка"
   272bc02e: "Обробка..."
   5aa377e2: "⏳ Обробка"
-  transcript: "Обробка стенограми"
+  transcript: "Обробка транскрипту"
 prompt:
-  _self: "Підкажіть"
-  preset: "Попереднє налаштування запиту"
+  _self: "Промпт"
+  preset: "Пресет промпта"
 provider:
   _self: "Провайдер"
-  kind: "Вид постачальника"
-  type: "Тип постачальника"
+  kind: "Тип провайдера"
+  type: "Тип провайдера"
 providers:
   _self: "Провайдери"
-  prompts_and_vibe_mode_controls: "Постачальники, підказки та елементи керування режимом Vibe"
+  prompts_and_vibe_mode_controls: "Провайдери, промпти та налаштування режиму Vibe"
 push:
   to_talk: "Push-to-Talk"
 quickly:
   copy_your_last_transcription: "Швидко скопіюйте останню транскрипцію"
-  pull_your_latest_transcript_back_to_the: "Швидко перетягніть останню стенограму назад у буфер обміну."
+  pull_your_latest_transcript_back_to_the: "Швидко поверніть останній транскрипт назад у буфер обміну."
 quit:
   _self: "Вийти"
   pindrop: "Вийти з Pindrop"
 ready:
-  _self: "Готовий"
-  ec1296e1: "● Готовий"
-  to_record: "Готовий до запису"
-  to_transcribe: "Готовий до транскрибування"
+  _self: "Готово"
+  ec1296e1: "● Готово"
+  to_record: "Готово до запису"
+  to_transcribe: "Готово до транскрибування"
 recent:
   _self: "Останні"
   transcriptions: "Останні транскрипції"
-  transcripts: "Останні стенограми"
+  transcripts: "Останні транскрипти"
 recommended:
   _self: "Рекомендовано"
-  the_deterministic_cleaner_handles_mo: "Рекомендовано: детермінований очищувач чітко обробляє більшість диктовок. Увімкніть пропуск LLM, лише якщо ви бажаєте додаткового вдосконалення та погоджуєтеся на випадкові примхи моделі (преамбула, розмовні відповіді)."
+  the_deterministic_cleaner_handles_mo: "Рекомендовано: детермінований очищувач якісно обробляє більшість диктувань. Вмикайте прохід LLM, лише якщо ви хочете додаткового полірування й готові миритися з випадковими примхами моделі (преамбули, розмовні відповіді)."
 record:
-  _self: "запис"
+  _self: "Записати"
 recording:
   _self: "Запис"
   3f8fd48c: "🔴 Запис"
 recordings:
-  _self: "записи"
+  _self: "записів"
 redo:
   _self: "Повторити"
 refresh:
   _self: "Оновити"
 remove:
-  _self: "видалити"
-  and_clear_any_assignments_that_reference: "Видалити \"%@\" та видалити всі призначення, які посилаються на нього? Збережені облікові дані буде видалено."
+  _self: "Видалити"
+  and_clear_any_assignments_that_reference: "Видалити «%@» та очистити всі призначення, що посилаються на нього? Збережені облікові дані буде видалено."
   from_folder: "Видалити з папки"
-  provider: "Видалити постачальника"
+  provider: "Видалити провайдера"
 rename:
   _self: "Перейменувати"
   folder: "Перейменувати папку"
 replace:
   all: "Замінити все"
-  words_and_phrases: "Замініть слова та словосполучення"
+  words_and_phrases: "Заміна слів і фраз"
 replacement:
   _self: "Заміна"
   text: "Текст заміни"
@@ -723,64 +723,64 @@ report:
   an_issue: "Повідомити про проблему"
   an_issue_bd7b4f00: "Повідомити про проблему"
 required:
-  _self: "Обов'язковий"
-  for_recording_your_voice: "Необхідний для запису вашого голосу"
+  _self: "Обов’язково"
+  for_recording_your_voice: "Потрібно для запису вашого голосу"
 requires:
-  a_fast_provider_apple_foundation_models: "Потрібен швидкий постачальник (рекомендуються моделі Apple Foundation). Хмарні постачальники надсилатимуть один виклик API за паузу."
+  a_fast_provider_apple_foundation_models: "Потребує швидкого провайдера (рекомендуємо Apple Foundation Models). Хмарні провайдери виконуватимуть один виклик API на паузу."
 reset:
   _self: "Скинути"
   all_settings: "Скинути всі налаштування?"
   all_settings_7262c7b7: "Скинути всі налаштування"
-  to_default: "Скинути до замовчування"
+  to_default: "Скинути до стандартних"
 retry:
-  _self: "Повторіть спробу"
+  _self: "Повторити"
 right:
-  _self: "правильно"
+  _self: "Праворуч"
 run:
-  llm_polish_after_dictation_stops: "Запустіть полірування LLM після зупинки диктування"
+  llm_polish_after_dictation_stops: "Запускати полірування LLM після зупинки диктування"
 runtime:
   _self: "Тривалість: %@"
 save:
-  _self: "зберегти"
-  as_note: "Зберегти як примітку"
+  _self: "Зберегти"
+  as_note: "Зберегти як нотатку"
   continue: "Зберегти та продовжити"
   credentials: "Зберегти облікові дані"
-  prompt: "Зберегти запит"
+  prompt: "Зберегти промпт"
 saved:
   _self: "Збережено"
-  as_note: "Збережено як примітку"
-  transcription: "Збережена транскрипція"
+  as_note: "Збережено як нотатку"
+  transcription: "Транскрипцію збережено"
 search:
-  media_transcripts: "Шукати стенограми ЗМІ..."
+  media_transcripts: "Пошук транскриптів медіа..."
   models: "Пошук моделей"
   models_61c1b9fe: "Пошук моделей..."
   notes: "Пошук нотаток..."
-  settings: "Налаштування пошуку"
-  settings_or_jump_between_sections_without: "Шукайте налаштування або переходьте між розділами, не виходячи з основної робочої області."
+  settings: "Пошук у налаштуваннях"
+  settings_or_jump_between_sections_without: "Шукайте в налаштуваннях або переходьте між розділами, не залишаючи основну робочу область."
   transcriptions: "Пошук транскрипцій..."
 secondary:
-  text: "Вторинний текст"
+  text: "Додатковий текст"
 select:
-  a_dictionary_json_file_to_import: "Виберіть файл JSON словника для імпорту"
+  a_dictionary_json_file_to_import: "Виберіть JSON-файл словника для імпорту"
   a_model: "Виберіть модель"
-  a_presets_json_file_to_import: "Виберіть попередньо налаштований файл JSON для імпорту"
+  a_presets_json_file_to_import: "Виберіть JSON-файл пресетів для імпорту"
   a_provider_kind: "Виберіть тип провайдера"
   a_provider_type: "Виберіть тип провайдера"
-  ai_model: "Виберіть модель AI"
-  all: "Виберіть усі"
+  ai_model: "Виберіть модель ШІ"
+  all: "Вибрати все"
   language: "Виберіть мову"
   language_daea52c9: "Виберіть мову"
-  this_floating_indicator_style: "Виберіть цей стиль плаваючого індикатора."
-  voice_model: "Виберіть «Модель голосу»."
+  this_floating_indicator_style: "Вибрати цей стиль плавного індикатора."
+  voice_model: "Виберіть голосову модель"
 selected:
-  _self: "Вибране"
+  _self: "Вибрано"
 sent:
-  to_the_ai_model_when_processing_dictation_f: "Надсилається до моделі AI під час обробки диктування для прямого вставлення тексту."
+  to_the_ai_model_when_processing_dictation_f: "Надсилається моделі ШІ під час обробки диктування для прямої вставки тексту."
 sessions:
   _self: "Сеанси"
-  781791f5: "сесії"
+  781791f5: "сеансів"
 set:
-  as_default: "Встановити за замовчуванням"
+  as_default: "Зробити за замовчуванням"
 settings:
   _self: "Налаштування"
   bf83f07f: "Налаштування..."
@@ -790,14 +790,14 @@ setup:
 show:
   app: "Показати додаток"
   app_in_finder: "Показати додаток у Finder"
-  floating_indicator: "Показати плаваючий індикатор"
-  in_dock: "Показати в Dock"
+  floating_indicator: "Показувати плавний індикатор"
+  in_dock: "Показувати в Dock"
 shows:
   as_a_dot_in_the_corner_of_the_screen: "Відображається крапкою в кутку екрана"
-  as_a_pill_at_the_bottom_of_the_screen: "Відображається як таблетка внизу екрана"
-  beside_the_focused_text_field_caret: "Відображається поруч із виділеним текстовим полем/кареткою"
-  in_the_menu_bar_notch_area: "Відображається на панелі меню/області виїмки"
-  recording_state_in_a_lightweight_overlay_w: "Показує стан запису в легкому вікні накладання."
+  as_a_pill_at_the_bottom_of_the_screen: "Відображається пігулкою внизу екрана"
+  beside_the_focused_text_field_caret: "Відображається поруч із курсором у фокусованому текстовому полі"
+  in_the_menu_bar_notch_area: "Відображається в зоні menu bar / вирізки"
+  recording_state_in_a_lightweight_overlay_w: "Показує стан запису в легкому накладеному вікні."
 sidebar:
   position: "Розташування бічної панелі"
 simplified:
@@ -805,24 +805,24 @@ simplified:
 size:
   _self: "Розмір"
 skip:
-  for_now: "Пропустити зараз"
+  for_now: "Пропустити поки що"
 slow:
   _self: "Повільно"
 slower:
   _self: "Повільніше"
 slowest:
-  _self: "Найповільніший"
+  _self: "Найповільніше"
 small:
-  _self: "Маленький"
+  _self: "Малий"
 smaller:
-  models_are_faster_but_less_accurate_nsta: "Менші моделі швидші, але менш точні.nПочніть із Base для найкращого балансу."
+  models_are_faster_but_less_accurate_nsta: "Менші моделі швидші, але менш точні.\nПочніть із Base для найкращого балансу."
   models_are_faster_but_less_accurate_star: |-
     Менші моделі швидші, але менш точні.
-    Почніть з Base для найкращого балансу.
+    Почніть із Base для найкращого балансу.
 something:
   went_wrong: "Щось пішло не так"
 soon:
-  _self: "скоро"
+  _self: "Незабаром"
 sort:
   by: "Сортувати за"
 source:
@@ -830,108 +830,108 @@ source:
 spanish:
   _self: "Іспанська"
 speaker:
-  diarization_and_timestamps_are_attached: "Щоденник доповідача та часові мітки додаються до відтворення."
-  diarization_is_required: "Потрібен щоденник доповідача"
+  diarization_and_timestamps_are_attached: "Діаризація мовців і часові мітки прикріплюються до відтворення."
+  diarization_is_required: "Потрібна діаризація мовців"
 speed:
-  _self: "швидкість"
+  _self: "Швидкість"
 start:
-  fresh_when_you_want_to_clear_preferences_o: "Почніть заново, коли захочете очистити налаштування, стан реєстрації та збережені облікові дані."
-  recording: "Почніть запис"
-  recording_to_see_your_transcriptions_here: "Почніть запис, щоб переглянути свої транскрипції тут"
+  fresh_when_you_want_to_clear_preferences_o: "Почніть із чистого аркуша, коли хочете очистити налаштування, стан знайомства та збережені облікові дані."
+  recording: "Почати запис"
+  recording_to_see_your_transcriptions_here: "Почніть запис, щоб побачити свої транскрипції тут"
   stop_recording: "Почати/зупинити запис"
-  using_pindrop: "Почніть використовувати Pindrop"
+  using_pindrop: "Почати використовувати Pindrop"
 status:
   _self: "Статус"
 stop:
   recording: "Зупинити запис"
 streaming:
-  enhancement: "Покращення потокового передавання"
-  transcription_currently_supports_engli: "Потокова транскрипція наразі підтримує лише англійську мову, незалежно від вибраної мови."
-  transcription_is_disabled_while_ai_enh: "Потокова транскрипція вимкнена, коли ввімкнено AI Enhancement."
-  transcription_model_parakeet_realtime: "Модель потокової транскрипції (Parakeet Realtime EOU), ліцензована корпорацією NVIDIA згідно з ліцензією відкритої моделі NVIDIA."
+  enhancement: "Покращення в реальному часі"
+  transcription_currently_supports_engli: "Транскрипція в реальному часі наразі підтримує лише англійську, незалежно від вибраної мови."
+  transcription_is_disabled_while_ai_enh: "Транскрипція в реальному часі вимкнена, доки увімкнено покращення ШІ."
+  transcription_model_parakeet_realtime: "Модель транскрипції в реальному часі (Parakeet Realtime EOU) ліцензована корпорацією NVIDIA за ліцензією NVIDIA Open Model License."
 success:
-  _self: "Успіх!"
+  _self: "Готово!"
 support:
   _self: "Підтримка"
-  coming_soon: "%@ Підтримка незабаром"
+  coming_soon: "Підтримка %@ незабаром"
 supports:
-  local_media_files_and_web_links_resolve: "Підтримує локальні медіа-файли та веб-посилання, розв’язані за допомогою yt-dlp."
+  local_media_files_and_web_links_resolve: "Підтримує локальні медіафайли та веб-посилання, оброблені через yt-dlp."
 switch:
-  to_model: "Перейти до моделі"
+  to_model: "Переключитися на модель"
 system:
-  _self: "система"
-  default: "Системне за замовчуванням"
+  _self: "Системний"
+  default: "За замовчуванням системи"
 teach:
-  custom_words: "Навчіть спеціальні слова"
+  custom_words: "Навчити власних слів"
 temporarily:
-  copy_text_paste_it_then_restore_your: "Тимчасово скопіюйте текст, вставте його, а потім відновіть буфер обміну"
-  mute_speaker_output_while_dictation: "Тимчасово вимкнути звук динаміка під час запису диктування."
-  pause_active_media_playback_while_di: "Тимчасово призупинити активне відтворення медіа під час запису диктування."
+  copy_text_paste_it_then_restore_your: "Тимчасово копіювати текст, вставляти його, потім відновлювати буфер обміну"
+  mute_speaker_output_while_dictation: "Тимчасово вимикати вивід через динамік, поки триває запис диктування."
+  pause_active_media_playback_while_di: "Тимчасово призупиняти активне відтворення медіа, поки триває запис диктування."
 tertiary:
   text: "Третинний текст"
 the:
-  model_failed_to_load_within_60_seconds_this: "\"\" Модель не вдалося завантажити протягом 60 секунд. Зазвичай це означає, що файли моделі пошкоджені або несумісні.                          Щоб виправити це: 1. Відкрийте «Параметри» → «Моделі» 2. Видаліть проблемну модель 3. Повторно завантажте модель. Якщо проблема не зникає, спробуйте меншу модель (Tiny або Base).             \"\""
-  selected_chunk_variant_isn_t_downloaded_yet: "Вибраний варіант блоку ще не завантажено. Перемикання почне завантаження."
+  model_failed_to_load_within_60_seconds_this: "\"\"             Не вдалося завантажити модель протягом 60 секунд. Зазвичай це означає, що файли моделі пошкоджені або несумісні.                          Щоб виправити це:             1. Відкрийте Налаштування → Моделі             2. Видаліть проблемну модель             3. Завантажте модель повторно                          Якщо проблема не зникає, спробуйте меншу модель (Tiny або Base).             \"\""
+  selected_chunk_variant_isn_t_downloaded_yet: "Вибраний варіант фрагмента ще не завантажено. Перемикання запустить завантаження."
 theme:
   _self: "Тема"
-  changes_apply_live_across_the_workspace_se: "Зміни теми застосовуються в робочій області, налаштуваннях, редакторі нотаток і плаваючих індикаторах."
-  mode: "Тематичний режим"
+  changes_apply_live_across_the_workspace_se: "Зміни теми застосовуються в реальному часі у робочій області, налаштуваннях, редакторі нотаток і плавних індикаторах."
+  mode: "Режим теми"
 this:
-  preset_name_is_already_in_use: "Ця попередньо встановлена ​​назва вже використовується."
+  preset_name_is_already_in_use: "Цю назву пресету вже використано."
   provider_will_be_available_in_a_future_upda: |-
-    Цей постачальник буде доступний у майбутньому оновленні.
-    Наразі спробуйте OpenAI або використовуйте спеціальну кінцеву точку.
+    Цей провайдер буде доступний у майбутньому оновленні.
+    Поки що спробуйте OpenAI або використайте власний endpoint.
   provider_will_be_available_in_a_future_upda_3e35a952: |-
-    Цей постачальник буде доступний у майбутньому оновленні.
-    Спробуйте OpenAI або використовуйте спеціальну кінцеву точку.
-  provider_will_be_available_in_a_future_upda_0677ac1d: "Цей провайдер буде доступний у майбутньому оновленні.nНаразі спробуйте OpenAI або скористайтеся спеціальною кінцевою точкою."
+    Цей провайдер буде доступний у майбутньому оновленні.
+    Спробуйте OpenAI або використайте власний endpoint.
+  provider_will_be_available_in_a_future_upda_0677ac1d: "Цей провайдер буде доступний у майбутньому оновленні.\nПоки що спробуйте OpenAI або використайте власний endpoint."
   transcription_could_not_be_found: "Не вдалося знайти цю транскрипцію."
-  will_clear_all_your_settings_including_api: "Це очистить усі ваші налаштування, включно з ключами API, гарячими клавішами та параметрами моделі. Під час наступного запуску програма закриється та знову відобразить інформацію про адаптацію."
-  will_permanently_remove_the_transcript_and: "Це назавжди видалить стенограму та її керований медіафайл."
+  will_clear_all_your_settings_including_api: "Це очистить усі ваші налаштування, включно з ключами API, гарячими клавішами та параметрами моделі. Додаток закриється та знову покаже початкове налаштування при наступному запуску."
+  will_permanently_remove_the_transcript_and: "Це назавжди видалить транскрипт і його керований медіафайл."
 time:
-  saved: "Економія часу"
+  saved: "Зекономлено часу"
 to:
-  dictate_and_let_pindrop_transcribe_for_you: "диктувати та дозволяти Pindrop транскрибувати для вас"
-  start_talking: "почати говорити"
+  dictate_and_let_pindrop_transcribe_for_you: "щоб диктувати, і Pindrop транскрибує за вас"
+  start_talking: "щоб почати говорити"
 today:
   _self: "Сьогодні"
 toggle:
   _self: "Перемикач"
   recording: "Перемкнути запис"
-  sort_order: "Змінити порядок сортування"
+  sort_order: "Перемкнути порядок сортування"
 transcribe:
   _self: "Транскрибувати"
   media: "Транскрибувати медіа"
 transcribed:
-  _self: "транскрибований"
+  _self: "транскрибовано"
 transcription:
   _self: "Транскрипція"
-  backend: "Сервер транскрипції"
+  backend: "Двигун транскрипції"
   deleted: "Транскрипцію видалено."
   enhancement: "Покращення транскрипції"
   failed: "Помилка транскрипції"
   finished: "Транскрипцію завершено."
-  in_progress: "Виконується транскрипція"
+  in_progress: "Транскрипція триває"
   metadata: "Метадані транскрипції"
   update: "Оновлення транскрипції"
 transcriptions:
-  _self: "транскрипції"
-  f0972acc: "транскрипції"
+  _self: "Транскрипції"
+  f0972acc: "транскрипцій"
   in_this_folder_will_be_kept_and_m: "Транскрипції в цій папці буде збережено та переміщено назад до бібліотеки."
 transcripts:
-  _self: "Стенограми"
+  _self: "Транскрипти"
 try:
-  a_different_search_term: "Спробуйте інший термін пошуку"
-  a_different_search_term_0ba628a3: "Спробуйте інший термін пошуку."
-  a_different_search_term_in_this_folder: "Спробуйте інший термін пошуку в цій папці."
-  searching_for_terms_like_hotkeys_microphone: "Спробуйте шукати такі терміни, як гарячі клавіші, мікрофон, оновлення або режим Vibe."
+  a_different_search_term: "Спробуйте інший пошуковий запит"
+  a_different_search_term_0ba628a3: "Спробуйте інший пошуковий запит."
+  a_different_search_term_in_this_folder: "Спробуйте інший пошуковий запит у цій папці."
+  searching_for_terms_like_hotkeys_microphone: "Спробуйте пошук термінів на кшталт «гарячі клавіші», «мікрофон», «оновлення» або «режим Vibe»."
 turkish:
-  _self: "турецька"
+  _self: "Турецька"
 type:
-  text_directly_into_the_active_app_when_poss: "Введіть текст безпосередньо в активну програму, коли це можливо"
+  text_directly_into_the_active_app_when_poss: "Вводити текст безпосередньо в активний додаток, коли це можливо"
 unable:
-  to_connect_to_the_ai_enhancement_service: "\"\" Неможливо підключитисяnnect до служби вдосконалення ШІ.                                  Будь ласка, перевірте: 1. Ваш інтернет-з’єднанняnnection 2. URL-адреса кінцевої точки API правильна 3. Служба не зазнає збою. Транскрипцію збережено без покращення.                 \"\""
-  to_finish_transcription: "Неможливо завершити транскрипцію"
+  to_connect_to_the_ai_enhancement_service: "\"\"                 Не вдалося підключитися до сервісу покращення ШІ.                                  Будь ласка, перевірте:                 1. Ваше підключення до Інтернету                 2. Чи правильна URL-адреса endpoint API                 3. Чи не має сервіс збоїв                                  Транскрипцію збережено без покращення.                 \"\""
+  to_finish_transcription: "Не вдалося завершити транскрипцію"
   to_load_history: "Не вдалося завантажити історію: %@"
   to_load_models_try_refresh: "Не вдалося завантажити моделі. Спробуйте оновити."
   to_update_media_library: "Не вдалося оновити медіатеку"
@@ -940,25 +940,25 @@ unavailable:
 undo:
   _self: "Скасувати"
 unfiled:
-  _self: "Непідшитий"
+  _self: "Без папки"
 unpin:
   from_screen: "Відкріпити від екрана"
 update:
-  _self: "оновлення"
+  _self: "Оновити"
 updates:
   _self: "Оновлення"
 use:
-  a_tap_to_start_tap_to_finish_shortcut_for_no: "Використовуйте ярлик для створення нотаток."
+  a_tap_to_start_tap_to_finish_shortcut_for_no: "Використовуйте комбінацію клавіш «торкнутися-щоб-почати, торкнутися-щоб-закінчити» для запису нотаток."
   clipboard_only: "Використовувати лише буфер обміну"
-  the_hotkey_to_start_your_first_recording: "Використовуйте гарячу клавішу, щоб почати свій перший запис"
-  transcription_as_a_placeholder_for_the_trans: "Використовуйте ${transcription} як заповнювач для транскрибованого тексту."
-  transcription_as_placeholder: "Використовуйте ${transcription} як заповнювач"
+  the_hotkey_to_start_your_first_recording: "Використайте гарячу клавішу, щоб почати свій перший запис"
+  transcription_as_a_placeholder_for_the_trans: "Використовуйте ${transcription} як плейсхолдер для транскрибованого тексту."
+  transcription_as_placeholder: "Використовуйте ${transcription} як плейсхолдер"
 used:
-  when_capturing_notes_via_hotkey_can_add_mar: "Використовується під час захоплення нотаток за допомогою гарячої клавіші. Можна додати форматування розмітки для довшого вмісту."
+  when_capturing_notes_via_hotkey_can_add_mar: "Використовується при створенні нотаток через гарячу клавішу. Може додавати Markdown-форматування для довшого вмісту."
 uses:
-  a_built_in_prompt_tuned_for_this_task: "Використовує вбудовану підказку, налаштовану для цього завдання."
-  the_160ms_parakeet_variant_for_snappier_par: "Використовує варіант Parakeet на 160 мс для швидшої часткової обробки за рахунок приблизно на 70% більшої кількості помилок у словах. За умовчанням встановлено варіант 320 мс."
-  the_transcription_enhancement_assignment_if: "Використовує призначення покращення транскрипції. Якщо жодного не встановлено, вихід детермінованого очищення зберігається як є."
+  a_built_in_prompt_tuned_for_this_task: "Використовує вбудований промпт, налаштований для цього завдання."
+  the_160ms_parakeet_variant_for_snappier_par: "Використовує варіант Parakeet 160 мс для швидших часткових результатів ціною ~70% більшої кількості помилок у словах. За замовчуванням — варіант 320 мс."
+  the_transcription_enhancement_assignment_if: "Використовує призначення «Покращення транскрипції». Якщо нічого не призначено, вивід детермінованого очищувача зберігається без змін."
 v:
   _self: "v%@"
 version:
@@ -969,15 +969,15 @@ via:
   _self: "через %@"
 vibe:
   mode: "Режим Vibe"
-  mode_captures_structured_ui_context_when_re: "Режим Vibe фіксує структурований контекст інтерфейсу користувача на початку запису, щоб удосконалення штучного інтелекту могло використовувати стан вашої активної програми як довідковий матеріал."
-  mode_works_best_with_accessibility_permissi: "Режим Vibe найкраще працює з дозволом на спеціальні можливості. Без нього Pindrop повертається до обмежених метаданих програми, і транскрипція все ще працює нормально."
+  mode_captures_structured_ui_context_when_re: "Режим Vibe фіксує структурований контекст інтерфейсу на початку запису, щоб покращення ШІ могло використовувати стан вашого активного додатка як орієнтир."
+  mode_works_best_with_accessibility_permissi: "Режим Vibe найкраще працює з дозволом на доступність. Без нього Pindrop обмежується метаданими додатка, а транскрипція продовжує працювати нормально."
 view:
   _self: "Переглянути"
   all: "Переглянути всі"
-  transcript_history: "Переглянути історію розшифровки"
-  transcription_history: "Переглянути історію транскрипції"
+  transcript_history: "Переглянути історію транскриптів"
+  transcription_history: "Переглянути історію транскрипцій"
 vocabulary:
-  _self: "Словниковий запас"
+  _self: "Словник"
 vs:
   typing: "проти набору тексту"
 welcome:
@@ -989,24 +989,24 @@ word:
   replacements: "Заміни слів"
 words:
   _self: "Слова"
-  efb89361: "слова"
+  efb89361: "слів"
   min: "слів/хв"
 wpm:
   _self: "WPM"
 yesterday:
-  _self: "вчора"
+  _self: "Учора"
 you:
-  are_a_note_formatting_assistant_transform_th: "Ви помічник форматування нотаток. Перетворіть транскрибований текст на добре структуровану примітку.nnПравила:n- Виправте граматичні, пунктуаційні та орфографічні помилкиn- Для довшого вмісту (3+ абзаців) додайте форматування розмітки:n - Використовуйте заголовки (## або ###), щоб упорядкувати розділиn - Використовуйте маркери або нумеровані списки, де це доречноn - Використовуйте **жирний шрифт** для виділення ключових термінівn- Для коротшого вмісту зберігайте це просто з мінімальним форматуваннямn- Зберігайте оригінальне значення та тон- Не додавайте вміст, якого не було в оригіналіn- Повертайте лише відформатовану примітку без будь-яких коментарів"
-  are_a_text_enhancement_assistant_improve_the: "Ви помічник із покращення тексту. Покращте граматику, пунктуацію та форматування наданого тексту, зберігаючи його оригінальний зміст і тон. Повернути лише розширений текст без додаткових коментарів."
-  can_change_these_anytime_from_the_menu_bar_s: "Ви можете будь-коли змінити їх у рядку меню → Налаштування → Гарячі клавіші"
+  are_a_note_formatting_assistant_transform_th: "Ви — асистент із форматування нотаток. Перетворіть транскрибований текст на добре структуровану нотатку.\n\nПравила:\n- Виправте граматичні, пунктуаційні та орфографічні помилки\n- Для довшого вмісту (3+ абзаців) додайте Markdown-форматування:\n  - Використовуйте заголовки (## або ###), щоб упорядкувати розділи\n  - Використовуйте маркіровані або нумеровані списки там, де це доречно\n  - Використовуйте **жирний шрифт** для виділення ключових термінів\n- Для коротшого вмісту залишайте просто, з мінімальним форматуванням\n- Зберігайте оригінальний зміст і тон\n- Не додавайте вміст, якого не було в оригіналі\n- Повертайте лише відформатовану нотатку без жодних коментарів"
+  are_a_text_enhancement_assistant_improve_the: "Ви — асистент із покращення тексту. Покращте граматику, пунктуацію та форматування наданого тексту, зберігаючи оригінальний зміст і тон. Повертайте лише покращений текст без жодних додаткових коментарів."
+  can_change_these_anytime_from_the_menu_bar_s: "Ви можете будь-коли змінити їх через menu bar → Налаштування → Гарячі клавіші"
   re_all_set: "Усе готово!"
   re_all_set_058a8130: "Усе готово!"
-  ve_exceeded_your_api_rate_limit_or_quota_to: "\"\" Ви перевищили ліміт або квоту швидкості API.                                  Щоб виправити це: 1. Зачекайте кілька хвилин і повторіть спробу 2. Перевірте обмеження на використання вашого постачальника API 3. Розгляньте можливість оновлення вашого плану API. Транскрипцію збережено без покращення.                 \"\""
+  ve_exceeded_your_api_rate_limit_or_quota_to: "\"\"                 Ви перевищили ліміт або квоту швидкості API.                                  Щоб виправити це:                 1. Зачекайте кілька хвилин і повторіть спробу                 2. Перевірте обмеження використання у вашого провайдера API                 3. Розгляньте можливість оновлення вашого плану API                                  Транскрипцію збережено без покращення.                 \"\""
 your:
-  api_key_appears_to_be_invalid_or_expired_to: "\"\" Схоже, ваш ключ API недійсний або прострочений.                                  Щоб виправити це: 1. Відкрийте «Параметри» → «Покращення штучного інтелекту» 2. Переконайтеся, що ваш ключ API правильний 3. Переконайтеся, що ваша кінцева точка API правильна. Транскрипцію збережено без покращення.                 \"\""
-  hotkeys_are_ready_to_use_nyou_can_customize: "Ваші гарячі клавіші готові до використання.nВи можете налаштувати їх пізніше в налаштуваннях."
+  api_key_appears_to_be_invalid_or_expired_to: "\"\"                 Схоже, ваш ключ API недійсний або термін його дії минув.                                  Щоб виправити це:                 1. Відкрийте Налаштування → Покращення ШІ                 2. Перевірте правильність ключа API                 3. Перевірте правильність endpoint API                                  Транскрипцію збережено без покращення.                 \"\""
+  hotkeys_are_ready_to_use_nyou_can_customize: "Ваші гарячі клавіші готові до використання.\nВи можете налаштувати їх пізніше в Налаштуваннях."
   hotkeys_are_ready_to_use_you_can_customize: |-
     Ваші гарячі клавіші готові до використання.
-    Ви можете налаштувати їх пізніше в налаштуваннях.
+    Ви можете налаштувати їх пізніше в Налаштуваннях.
   model_is_ready_to_use: "Ваша модель готова до використання."
   stats: "Ваша статистика"

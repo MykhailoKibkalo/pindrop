@@ -986,7 +986,7 @@ private struct BatchImportSheet: View {
                         )
 
                     if inputText.isEmpty {
-                        Text("Paste URLs or file paths here, one per line…\ne.g. https://youtube.com/watch?v=abc123\n     /Users/me/recordings/meeting.mp3")
+                        Text(localized("Paste URLs or file paths here, one per line…\ne.g. https://youtube.com/watch?v=abc123\n     /Users/me/recordings/meeting.mp3", locale: locale))
                             .font(AppTypography.bodySmall)
                             .foregroundStyle(AppColors.textTertiary)
                             .padding(16)

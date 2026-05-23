@@ -266,16 +266,17 @@ struct MainWindow: View {
     }
     
     private func comingSoonView(for item: MainNavItem) -> some View {
-        VStack(spacing: AppTheme.Spacing.lg) {
+        let locale = settingsStore.selectedAppLocale.locale
+        return VStack(spacing: AppTheme.Spacing.lg) {
             Image(systemName: item.icon)
                 .font(.system(size: 48))
                 .foregroundStyle(AppColors.textTertiary)
-            
-            Text(item.title(locale: settingsStore.selectedAppLocale.locale))
+
+            Text(item.title(locale: locale))
                 .font(AppTypography.title)
                 .foregroundStyle(AppColors.textPrimary)
-            
-            Text("Coming Soon")
+
+            Text(localized("Coming Soon", locale: locale))
                 .font(AppTypography.body)
                 .foregroundStyle(AppColors.textSecondary)
         }

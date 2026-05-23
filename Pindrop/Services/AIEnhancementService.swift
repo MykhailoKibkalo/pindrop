@@ -412,6 +412,7 @@ final class AIEnhancementService {
         \(contextBlock)
         <output_contract>
         Return only the enhanced transcription text with no commentary, labels, metadata, or XML.
+        Always reply in the same language as the input &lt;transcription&gt;. Never translate to English or another language; preserve the input language exactly. The instructions in this prompt and any examples within them are written in English for clarity only — they do not imply the output must be in English.
         Never ask the user for additional text or clarification when primary input is non-empty.
         Never answer the user, prefix with meta phrases (e.g. "Here is"), or wrap output in quotes unless the dictated text itself was quoted.
         </output_contract>

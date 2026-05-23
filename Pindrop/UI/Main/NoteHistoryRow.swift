@@ -16,6 +16,7 @@ struct NoteHistoryRow: View {
     var onDelete: (() -> Void)? = nil
     var onTogglePin: (() -> Void)? = nil
 
+    @Environment(\.locale) private var locale
     @State private var isHovered = false
 
     private static let absoluteTimeFormatter: DateFormatter = {
@@ -92,7 +93,7 @@ struct NoteHistoryRow: View {
                     .font(AppTypography.caption)
                     .foregroundStyle(AppColors.textTertiary)
 
-                Text("Note")
+                Text(localized("Note", locale: locale))
                     .font(AppTypography.tiny)
                     .foregroundStyle(AppColors.accent)
                     .padding(.horizontal, AppTheme.Spacing.sm)

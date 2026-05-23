@@ -23,6 +23,7 @@ struct TranscriptionHistoryRow: View {
     var onTap: () -> Void = {}
     var onSaveAsNote: (() -> Void)? = nil
 
+    @Environment(\.locale) private var locale
     @State private var isHovered = false
     @State private var showingSaveSuccess = false
     @Namespace private var enhancedNamespace
@@ -145,7 +146,7 @@ struct TranscriptionHistoryRow: View {
         .contextMenu { contextMenuItems }
         .overlay(alignment: .bottom) {
             if showingSaveSuccess {
-                Text("Saved to Notes")
+                Text(localized("Saved to Notes", locale: locale))
                     .font(AppTypography.caption)
                     .foregroundStyle(.white)
                     .padding(.horizontal, AppTheme.Spacing.md)
@@ -241,7 +242,7 @@ struct TranscriptionHistoryRow: View {
                     .fill(AppColors.divider)
                     .frame(height: 1)
 
-                Text("Original")
+                Text(localized("Original", locale: locale))
                     .font(AppTypography.tiny)
                     .foregroundStyle(AppColors.textTertiary)
 
@@ -261,7 +262,7 @@ struct TranscriptionHistoryRow: View {
 
     @ViewBuilder
     private func enhancedBadge(style: EnhancedBadgeStyle) -> some View {
-        Text("Enhanced")
+        Text(localized("Enhanced", locale: locale))
             .font(style == .inline ? AppTypography.caption : AppTypography.tiny)
             .foregroundStyle(style == .inline ? AppColors.textTertiary : AppColors.accent)
             .matchedGeometryEffect(id: "enhanced-label", in: enhancedNamespace)

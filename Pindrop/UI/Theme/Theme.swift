@@ -483,9 +483,11 @@ extension NSColor {
 }
 
 private struct ThemePreviewView: View {
+    @Environment(\.locale) private var locale
+
     var body: some View {
         VStack(spacing: AppTheme.Spacing.xl) {
-            Text("Pindrop Theme")
+            Text(localized("Pindrop Theme", locale: locale))
                 .font(AppTypography.largeTitle)
                 .foregroundStyle(AppColors.textPrimary)
 
@@ -504,13 +506,13 @@ private struct ThemePreviewView: View {
             }
 
             VStack(alignment: .leading, spacing: AppTheme.Spacing.sm) {
-                Text("Primary Text")
+                Text(localized("Primary Text", locale: locale))
                     .font(AppTypography.body)
                     .foregroundStyle(AppColors.textPrimary)
-                Text("Secondary Text")
+                Text(localized("Secondary Text", locale: locale))
                     .font(AppTypography.body)
                     .foregroundStyle(AppColors.textSecondary)
-                Text("Tertiary Text")
+                Text(localized("Tertiary Text", locale: locale))
                     .font(AppTypography.body)
                     .foregroundStyle(AppColors.textTertiary)
             }
