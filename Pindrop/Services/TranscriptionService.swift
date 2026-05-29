@@ -167,8 +167,8 @@ class TranscriptionService {
                 }
 
                 group.addTask {
-                    try await Task.sleep(for: .seconds(120))
-                    throw TranscriptionError.modelLoadFailed("Model loading timed out after 120s. This can happen on first launch after an update. Try restarting the app, or delete and re-download the model from Settings.")
+                    try await Task.sleep(for: .seconds(600))
+                    throw TranscriptionError.modelLoadFailed("Model loading timed out after 600s. The first launch after a macOS or app update can take several minutes while the model compiles for the Neural Engine. Try restarting the app, or delete and re-download the model from Settings.")
                 }
 
                 try await group.next()
@@ -224,8 +224,8 @@ class TranscriptionService {
                 }
 
                 group.addTask {
-                    try await Task.sleep(for: .seconds(120))
-                    throw TranscriptionError.modelLoadFailed("Model loading timed out after 120s. This can happen on first launch after an update. Try restarting the app, or delete and re-download the model from Settings.")
+                    try await Task.sleep(for: .seconds(600))
+                    throw TranscriptionError.modelLoadFailed("Model loading timed out after 600s. The first launch after a macOS or app update can take several minutes while the model compiles for the Neural Engine. Try restarting the app, or delete and re-download the model from Settings.")
                 }
 
                 try await group.next()
