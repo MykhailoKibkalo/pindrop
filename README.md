@@ -13,6 +13,8 @@
 
 **[Download Latest Release](https://github.com/watzon/pindrop/releases)** · **[Documentation](#documentation)** · **[Contributing](#contributing)** · **[Community](#community)**
 
+> 🇺🇦 **Збираєш цей форк сам?** Дивись [QUICKSTART.md](QUICKSTART.md) — короткий гайд зі збірки та запуску на своєму Mac (з підтримкою української мови).
+
 ---
 
 ## Why Pindrop?
